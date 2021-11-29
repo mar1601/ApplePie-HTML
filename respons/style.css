@@ -1,0 +1,78 @@
+/* 481 i 901 viewport, rojo,verde,amarillo */
+#container{
+    background-color:black ;
+    width: 50px;
+   
+}
+
+#circle {
+  font-size: 80px;
+  color:red;
+}
+
+@media (max-width: 600px){
+    #circle {
+        color: black;
+    }
+}
+
+@media (max-width: 400px){
+    #circle {
+        color: black;
+    }
+}
+/* DOS */
+#circle2 {
+    font-size: 80px;
+    color:black;
+  }
+  
+  @media (max-width: 600px){
+      #circle2 {
+          color: yellow;
+      }
+  }
+  
+  @media (max-width: 400px){
+      #circle2 {
+          color: black;
+      }
+  }
+
+  /* TRES */
+  #circle3 {
+    font-size: 80px;
+    color:black;
+  }
+  
+  @media (max-width: 600px){
+      #circle3 {
+          color: black;
+      }
+  }
+  
+  @media (max-width: 400px){
+      #circle3 {
+          color: green;
+      }
+  }
+  /* ARBOL NAVIDAD */
+
+  #triangulo-equilatero-bottom {
+
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid hsl(108, 93%, 18%);
+}
+#triangulo-equilatero-bottom2 {
+
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid hsl(108, 93%, 18%);
+}
+#triangulo-equilatero-bottom3 {
+
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid hsl(108, 93%, 18%);
+}

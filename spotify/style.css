@@ -1,0 +1,67 @@
+/* Colors:
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+ */
+.header-menu {
+   display: inline-block;
+    float: right;
+    margin-top: 23px;
+}
+
+li a {
+   text-decoration: none;
+   color: black;
+}
+
+.headerimage {
+    background-image: url('landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    MARGIN-TOP: 54PX;
+ }
+ 
+ .pagemargin {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+ }
+ 
+ .texto-encima{
+    padding-top: 93px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 39px;
+ }
+ 
+ .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ .image {
+    position: relative;
+ }
+
+ .menu {
+   width: 100%;
+   float: left;
+ }
+ 
+ .menu ul li {
+   float: right;
+   list-style-type: none;
+   text-align: left;
+ }
+ 
+ .menu ul li a {
+   padding: 10px;
+ }
+
+ .music {
+
+ }
