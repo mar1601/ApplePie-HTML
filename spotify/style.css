@@ -1,12 +1,30 @@
-/* Colors:
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
- */
+body {
+   font-family: Verdana, sans-serif;
+}
+
+.header-subtitle 
+{
+   font-size: 26px;
+   margin-left: 25%;
+   margin-right: 25%;
+   font-weight: 100;
+}
+
 .header-menu {
-   display: inline-block;
-    float: right;
-    margin-top: 23px;
+   
+   float: right; 
+   margin-top: 23px;
+}
+.kanye-img {
+   width: 266px;
+   margin-top: 56px;
+   margin-bottom: 56px;
+}
+
+.firstrow {
+   color: white;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 li a {
@@ -14,10 +32,23 @@ li a {
    color: black;
 }
 
+.table-title {
+   font-size: 19px;
+   color: #00B172;
+   font-weight: bolder;
+}
+
+.table-subtitle {
+   padding-left: 20%;
+    padding-right: 20%;
+    color: grey;
+}
+
 .headerimage {
     background-image: url('landing.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 600px;
     MARGIN-TOP: 54PX;
  }
@@ -33,7 +64,13 @@ li a {
     margin: 0 auto;
     color: white;
     text-align: center;
-    font-size: 39px;
+    font-size: 63px !important;
+   font-weight: 600 !important;
+ }
+
+ h1 {
+   font-size: 63px !important;
+   font-weight: 600 !important;
  }
  
  .centrado{
@@ -44,7 +81,7 @@ li a {
  }
  
  .image {
-    position: relative;
+    position: center;
  }
 
  .menu {
@@ -60,8 +97,4 @@ li a {
  
  .menu ul li a {
    padding: 10px;
- }
-
- .music {
-
  }
